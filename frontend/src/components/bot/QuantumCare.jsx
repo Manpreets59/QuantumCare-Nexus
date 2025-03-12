@@ -5,7 +5,7 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 
-function MediHubBot() {
+function QuantumCareBot() {
   const [messages, setMessages] = useState([]);
   const [userInput, setUserInput] = useState("");
   const [chat, setChat] = useState(null);
@@ -112,7 +112,7 @@ function MediHubBot() {
       className={`flex flex-col fixed bottom-24 z-50 left-10 h-[70vh] w-[18.5rem] p-4 shadow-md shadow-emerald-200 z-40 bg-white rounded-t-lg rounded-r-lg`}
     >
       <div className="flex justify-between items-center mb-4">
-        <h1 className={`text-2xl font-bold text-dark_theme`}>Medihub Bot</h1>
+        <h1 className={`text-2xl font-bold text-dark_theme`}>QuantumCare Bot</h1>
       </div>
       <div className={`flex-1 overflow-y-auto bg-gray-100 rounded-md p-2`}>
         {messages.map((msg, index) => (
@@ -155,4 +155,4 @@ function MediHubBot() {
   );
 }
 
-export default MediHubBot;
+export default QuantumCareBot;

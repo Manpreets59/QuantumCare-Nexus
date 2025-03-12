@@ -40,7 +40,9 @@ const DoctorsCard = ({ doctor }) => {
               {/* Appointment fees for above medium screens */}
               <div className="hidden mt-2 md:flex gap-4 items-center w-full">
                 <div>
-                  <p className=" text-sm text-text_grey/80 font-ium">You pay</p>
+                  <p className=" text-sm text-text_grey/80 font-medium">
+                    You pay
+                  </p>
                   <p className="text-dark_theme font-medium">
                     Rs {doctor.appointmentCharges}
                   </p>
@@ -48,7 +50,7 @@ const DoctorsCard = ({ doctor }) => {
                 {/* Cashback */}
                 <div className="border-l-2 border-text_grey/50 px-4">
                   <p className="text-xs text-cart_orange font-light">
-                    QuantumCare Nexus CASHBACK
+                  QuantumCare CASHBACK
                   </p>
                   <p className="text-cart_orange font-normal">Rs 51</p>
                 </div>
@@ -68,7 +70,7 @@ const DoctorsCard = ({ doctor }) => {
             {/* Cashback */}
             <div className="border-l-2 border-text_grey/50 px-4">
               <p className="text-xs text-cart_orange font-light">
-                MEDIHUB CASHBACK
+              QuantumCare CASHBACK
               </p>
               <p className="text-cart_orange font-normal">Rs 51</p>
             </div>
