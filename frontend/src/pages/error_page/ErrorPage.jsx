@@ -18,7 +18,7 @@ export default function ErrorPage() {
           className="text-teal-600/100 underline transition ease-in-out hover:text-green-600/100 duration-300 "
           href="/"
         >
-          Medi-Hub's Homepage
+          QuantumCare's Homepage
         </a>
       </h1>
     </div>
